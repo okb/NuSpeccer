@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuSpeccer", "app\NuSpeccer\NuSpeccer.csproj", "{99B9219A-85D4-4AD4-B041-60BDF1005B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuspeccer.Generator", "app\Nuspeccer.Generator\Nuspeccer.Generator.csproj", "{DE44C790-811D-4281-8758-1FAAC2D7B659}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generator", "Generator", "{3DDFB088-AA2F-418D-AF8B-088B102E2C51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Debug|x64.ActiveCfg = Debug|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Debug|x86.ActiveCfg = Debug|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Debug|x86.Build.0 = Debug|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Release|Any CPU.ActiveCfg = Release|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Release|x64.ActiveCfg = Release|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Release|x86.ActiveCfg = Release|x86
+		{99B9219A-85D4-4AD4-B041-60BDF1005B7F}.Release|x86.Build.0 = Release|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Debug|x64.ActiveCfg = Debug|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Debug|x86.ActiveCfg = Debug|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Debug|x86.Build.0 = Debug|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Release|Any CPU.ActiveCfg = Release|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Release|x64.ActiveCfg = Release|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Release|x86.ActiveCfg = Release|x86
+		{DE44C790-811D-4281-8758-1FAAC2D7B659}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE44C790-811D-4281-8758-1FAAC2D7B659} = {3DDFB088-AA2F-418D-AF8B-088B102E2C51}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2 @@
+NuGet specification generator. Generates .nuspec files from assembly information in dll files.
+Useful when you got an ILmerged assembly and can't use a single project to autogenerate the .nuspec file

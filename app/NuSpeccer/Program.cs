@@ -86,7 +86,9 @@ namespace NuSpeccer
                         Target = "lib"
                     });
 
-                package.SaveToFile(filename.Replace(".dll", "") + ".nuspec");
+                var outFile = Path.GetFileName(filename.Replace(".dll", ".nuspec"));
+                package.SaveToFile(outFile);
+                Console.WriteLine("Done! " + outFile);
             }
             else
                 Console.WriteLine("File does not exist!");
